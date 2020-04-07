@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correct 1`] = `
+<Modal
+  cancelText="Cancelar"
+  confirmLoading={false}
+  maskTransitionName="fade"
+  okText="Cadastrar"
+  okType="primary"
+  onCancel={[Function]}
+  onOk={[Function]}
+  title="Cadastrar Caminhoneiro"
+  transitionName="zoom"
+  visible={true}
+  width={520}
+>
+  <ForwardRef(InternalForm)
+    form={
+      Object {
+        "__INTERNAL__": Object {},
+        "getFieldError": [Function],
+        "getFieldValue": [Function],
+        "getFieldsError": [Function],
+        "getFieldsValue": [Function],
+        "getInternalHooks": [Function],
+        "isFieldTouched": [Function],
+        "isFieldValidating": [Function],
+        "isFieldsTouched": [Function],
+        "isFieldsValidating": [Function],
+        "resetFields": [Function],
+        "scrollToField": [Function],
+        "setFields": [Function],
+        "setFieldsValue": [Function],
+        "submit": [Function],
+        "validateFields": [Function],
+      }
+    }
+    layout="vertical"
+    name="edit_travel"
+  >
+    <Row
+      gutter={
+        Array [
+          8,
+          8,
+        ]
+      }
+    >
+      <Col
+        span={8}
+      >
+        <FormItem
+          label="Nome"
+          name="name"
+          rules={
+            Array [
+              Object {
+                "message": "Este campo é obrigatório!",
+                "required": true,
+              },
+              Object {
+                "max": 60,
+                "message": "Limite de caracteres 60!",
+              },
+            ]
+          }
+        >
+          <Input
+            type="text"
+          />
+        </FormItem>
+      </Col>
+      <Col
+        span={8}
+      >
+        <FormItem
+          label="Idade"
+          name="age"
+          rules={
+            Array [
+              Object {
+                "message": "Este campo é obrigatório!",
+                "required": true,
+              },
+            ]
+          }
+        >
+          <InputNumber
+            max={100}
+            min={18}
+            step={1}
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          />
+        </FormItem>
+      </Col>
+      <Col
+        span={8}
+      >
+        <FormItem
+          label="Tipo CNH?"
+          name="driver_license_type"
+          rules={
+            Array [
+              Object {
+                "message": "Este campo é obrigatório!",
+                "required": true,
+              },
+              Object {
+                "max": 5,
+                "message": "Limite de caracteres 5!",
+              },
+            ]
+          }
+        >
+          <Input
+            type="text"
+          />
+        </FormItem>
+      </Col>
+    </Row>
+    <Row
+      gutter={
+        Array [
+          8,
+          8,
+        ]
+      }
+    >
+      <Col
+        span={8}
+      >
+        <FormItem
+          label="Possui veículo?"
+          name="has_vehicle"
+        >
+          <Switch />
+        </FormItem>
+      </Col>
+      <Col
+        span={8}
+      >
+        <FormItem
+          label="Está carregado?"
+          name="is_busy"
+        >
+          <Switch />
+        </FormItem>
+      </Col>
+      <Col
+        span={8}
+      >
+        <FormItem
+          label="Tipo veículo"
+          name="vehicle_type_id"
+          rules={
+            Array [
+              Object {
+                "message": "Este campo é obrigatório!",
+                "required": true,
+              },
+            ]
+          }
+        >
+          <InputNumber
+            step={1}
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          />
+        </FormItem>
+      </Col>
+    </Row>
+  </ForwardRef(InternalForm)>
+</Modal>
+`;

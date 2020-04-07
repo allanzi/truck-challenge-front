@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correct 1`] = `
+<Modal
+  cancelText="Cancelar"
+  confirmLoading={false}
+  maskTransitionName="fade"
+  okText="Cadastrar"
+  okType="primary"
+  onCancel={[Function]}
+  onOk={[Function]}
+  title="Cadastrar Viagem"
+  transitionName="zoom"
+  visible={true}
+  width={520}
+>
+  <ForwardRef(InternalForm)
+    form={
+      Object {
+        "__INTERNAL__": Object {},
+        "getFieldError": [Function],
+        "getFieldValue": [Function],
+        "getFieldsError": [Function],
+        "getFieldsValue": [Function],
+        "getInternalHooks": [Function],
+        "isFieldTouched": [Function],
+        "isFieldValidating": [Function],
+        "isFieldsTouched": [Function],
+        "isFieldsValidating": [Function],
+        "resetFields": [Function],
+        "scrollToField": [Function],
+        "setFields": [Function],
+        "setFieldsValue": [Function],
+        "submit": [Function],
+        "validateFields": [Function],
+      }
+    }
+    layout="vertical"
+    name="edit_travel"
+  >
+    <FormItem
+      label="Caminhoneiro ID"
+      name="user_id"
+      rules={
+        Array [
+          Object {
+            "message": "Este campo é obrigatório!",
+            "required": true,
+          },
+        ]
+      }
+    >
+      <Input
+        type="text"
+      />
+    </FormItem>
+    <Row
+      gutter={
+        Array [
+          8,
+          8,
+        ]
+      }
+    >
+      <Col
+        span={12}
+      >
+        <FormItem
+          label="Origem latitude"
+          name="from_latitude"
+          rules={
+            Array [
+              Object {
+                "message": "Este campo é obrigatório!",
+                "required": true,
+              },
+            ]
+          }
+        >
+          <InputNumber
+            step={1}
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          />
+        </FormItem>
+      </Col>
+      <Col
+        span={12}
+      >
+        <FormItem
+          label="Origem longitude"
+          name="from_longitude"
+          rules={
+            Array [
+              Object {
+                "message": "Este campo é obrigatório!",
+                "required": true,
+              },
+            ]
+          }
+        >
+          <InputNumber
+            step={1}
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          />
+        </FormItem>
+      </Col>
+    </Row>
+    <Row
+      gutter={
+        Array [
+          8,
+          8,
+        ]
+      }
+    >
+      <Col
+        span={12}
+      >
+        <FormItem
+          label="Destino latitude"
+          name="to_latitude"
+          rules={
+            Array [
+              Object {
+                "message": "Este campo é obrigatório!",
+                "required": true,
+              },
+            ]
+          }
+        >
+          <InputNumber
+            step={1}
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          />
+        </FormItem>
+      </Col>
+      <Col
+        span={12}
+      >
+        <FormItem
+          label="Destino longitude"
+          name="to_longitude"
+          rules={
+            Array [
+              Object {
+                "message": "Este campo é obrigatório!",
+                "required": true,
+              },
+            ]
+          }
+        >
+          <InputNumber
+            step={1}
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          />
+        </FormItem>
+      </Col>
+    </Row>
+  </ForwardRef(InternalForm)>
+</Modal>
+`;

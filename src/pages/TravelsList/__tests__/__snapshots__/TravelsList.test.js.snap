@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correct 1`] = `
+<Fragment>
+  <Row
+    align="middle"
+    gutter={0}
+    justify="space-between"
+  >
+    <Col
+      span={12}
+    >
+      <Breadcrumb
+        separator="/"
+        style={
+          Object {
+            "margin": "16px 0",
+          }
+        }
+      >
+        <BreadcrumbItem
+          separator="/"
+        >
+          Truck Panel
+        </BreadcrumbItem>
+        <BreadcrumbItem
+          separator="/"
+        >
+          Viagens
+        </BreadcrumbItem>
+      </Breadcrumb>
+    </Col>
+    <Col
+      spam={12}
+    >
+      <Button
+        block={false}
+        ghost={false}
+        htmlType="button"
+        loading={false}
+        onClick={[Function]}
+        type="primary"
+      >
+        Cadastrar viagem
+      </Button>
+    </Col>
+  </Row>
+  <div
+    className="site-layout-background"
+    style={
+      Object {
+        "minHeight": 360,
+        "padding": 24,
+      }
+    }
+  >
+    <Table
+      columns={
+        Array [
+          Object {
+            "dataIndex": "name",
+            "key": "name",
+            "title": "Nome",
+          },
+          Object {
+            "dataIndex": "from",
+            "key": "from",
+            "render": [Function],
+            "title": "Origem",
+          },
+          Object {
+            "dataIndex": "to",
+            "key": "to",
+            "render": [Function],
+            "title": "Destino",
+          },
+          Object {
+            "key": "action",
+            "render": [Function],
+            "title": "Ações",
+          },
+        ]
+      }
+      dataSource={Array []}
+      loading={true}
+      locale={
+        Object {
+          "emptyText": "Sem dados para exibir",
+        }
+      }
+      rowKey={[Function]}
+    />
+  </div>
+</Fragment>
+`;

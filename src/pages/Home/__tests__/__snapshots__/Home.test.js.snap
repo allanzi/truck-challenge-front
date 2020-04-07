@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correct 1`] = `
+<Fragment>
+  <Breadcrumb
+    separator="/"
+    style={
+      Object {
+        "margin": "16px 0",
+      }
+    }
+  >
+    <BreadcrumbItem
+      separator="/"
+    >
+      Truck Panel
+    </BreadcrumbItem>
+    <BreadcrumbItem
+      separator="/"
+    >
+      Home
+    </BreadcrumbItem>
+  </Breadcrumb>
+  <div
+    className="site-layout-background"
+    style={
+      Object {
+        "minHeight": 360,
+        "padding": 24,
+      }
+    }
+  >
+    <Row
+      gutter={
+        Array [
+          8,
+          8,
+        ]
+      }
+    >
+      <Col
+        span={8}
+      >
+        <Card
+          className="card-report"
+          title="Viagens por caminhoneiro"
+        >
+          <Timeline
+            mode=""
+            reverse={false}
+          />
+        </Card>
+      </Col>
+      <Col
+        span={8}
+      >
+        <Card
+          className="card-report"
+          title="Caminhoneiros carregados"
+        >
+          <List
+            bordered={true}
+            dataSource={Array []}
+            loading={true}
+            pagination={false}
+            renderItem={[Function]}
+            split={true}
+          />
+        </Card>
+      </Col>
+      <Col
+        span={8}
+      >
+        <Card
+          className="card-report"
+          title="Caminhoneiros com veículo próprio "
+        >
+          <List
+            bordered={true}
+            dataSource={Array []}
+            loading={true}
+            pagination={false}
+            renderItem={[Function]}
+            split={true}
+          />
+        </Card>
+      </Col>
+    </Row>
+    <Row
+      gutter={
+        Array [
+          8,
+          8,
+        ]
+      }
+    >
+      <Col
+        span={8}
+      >
+        <Card
+          className="card-report"
+          title="Qtde caminhões carregados por dia"
+        >
+          <Timeline
+            mode=""
+            reverse={false}
+          />
+        </Card>
+      </Col>
+      <Col
+        span={8}
+      >
+        <Card
+          className="card-report"
+          title="Qtde caminhões carregados por semana"
+        >
+          <Timeline
+            mode=""
+            reverse={false}
+          />
+        </Card>
+      </Col>
+      <Col
+        span={8}
+      >
+        <Card
+          className="card-report"
+          title="Qtde caminhões carregados por mês"
+        >
+          <Timeline
+            mode=""
+            reverse={false}
+          />
+        </Card>
+      </Col>
+    </Row>
+  </div>
+</Fragment>
+`;
